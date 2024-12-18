@@ -1,0 +1,62 @@
+% LaTeX Homework Template
+% Masters of Software Engineering
+%
+% This file provides a template for homework assignments at the University of
+% Applied Sciences Technikum Wien. The file is designed to enable
+% professional-quality digital submissions in an educational context.
+%
+%
+% Initial Setup
+% ----------------------------------------------------
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+
+% Font and Paragraph Setup
+% ----------------------------------------------------
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0pt}
+\usepackage{helvet}
+
+
+% Variables
+% ----------------------------------------------------
+\newcommand{\authornames}{Author name}
+\newcommand{\team}{Team name}
+\newcommand{\subject}{Subject name}
+\newcommand{\assignment}{Assignment title}
+
+
+% Headers and Footers
+% ----------------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear header and footer fields
+
+\fancyhead[L]{\includegraphics[height=1cm]{images/technikum-logo}}
+\fancyhead[C]{\team}
+\fancyhead[R]{\subject}
+\fancyfoot[C]{\authornames}
+
+% disable header/footer lines
+\renewcommand{\headrulewidth{0.0pt}}
+\renewcommand{\footrulewidth{0.0pt}}
+
+
+% Title
+% ----------------------------------------------------
+\title{\subject \\ \assignment}
+%% \author{}
+\date{}
+
+\begin{document}
+
+
+\maketitle
+\thispagestyle{fancy} % ensures header/footer is included on the titlepage
+
+
+\end{document}
