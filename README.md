@@ -39,8 +39,3 @@ Makefile requires `latexmk` and a reasonably recent version of `TeX Live`.
   ```bash
   make clean-all
   ```
-
-## Requirements
-
-- `latexmk` installed
-- Recent version of TeX Live
